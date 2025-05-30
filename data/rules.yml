@@ -1,0 +1,26 @@
+version: "3.1"
+rules:
+- rule: Greet user
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Answer fee queries
+  steps:
+    - intent: ask_fees
+    - action: utter_ask_fees
+
+- rule: Answer admission queries
+  steps:
+    - intent: ask_admission
+    - action: utter_ask_admission
+
+- rule: Answer course queries
+  steps:
+    - intent: ask_courses
+    - action: utter_ask_courses

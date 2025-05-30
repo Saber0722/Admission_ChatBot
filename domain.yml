@@ -1,0 +1,29 @@
+version: "3.1"
+intents:
+  - ask_fees
+  - ask_admission
+  - ask_courses
+  - greet
+  - goodbye
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you about the college?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_ask_fees:
+    - text: "The tuition fee is ₹1,50,000 per year."
+
+  utter_ask_admission:
+    - text: "You can apply online through our admission portal and upload the required documents."
+
+  utter_ask_courses:
+    - text: "We offer BTech, BBA, B.Desgn, and MBA programs."
+
+actions: []  # Leave this empty if you're only using built-in utter_ responses
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

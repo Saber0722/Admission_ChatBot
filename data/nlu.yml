@@ -1,0 +1,37 @@
+version: "3.1"
+nlu:
+- intent: ask_fees
+  examples: |
+    - What is the fee structure?
+    - Tell me about the tuition fee
+    - How much do I need to pay yearly?
+    - What's the admission fee?
+
+- intent: ask_admission
+  examples: |
+    - How do I apply for admission?
+    - What's the admission process?
+    - How can I enroll in the course?
+    - Steps to take admission?
+
+- intent: ask_courses
+  examples: |
+    - What courses are available?
+    - List all the programs offered
+    - Which degrees can I take?
+    - Do you offer MBA?
+
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey, how are you?
+    - good morning
+    - hola
+
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - goodbye
+    - take care
